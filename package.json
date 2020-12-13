@@ -1,0 +1,17 @@
+{
+  "name": "gabsi-videos",
+  "version": "1.0.0",
+  "description": "Post videos I am watching to a Discord Channel ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot/index.js",
+    "dev": "nodemon bot/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.15.0"
+  }
+}
